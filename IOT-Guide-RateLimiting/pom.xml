@@ -18,15 +18,14 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-    <modelVersion>4.0.0</modelVersion>
     <parent>
         <artifactId>IOT-Guide</artifactId>
         <groupId>iot.technology</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
+    <modelVersion>4.0.0</modelVersion>
 
-    <name>IoT Technology Guide :: Actor</name>
-    <artifactId>IOT-Guide-Actor</artifactId>
+    <artifactId>IOT-Guide-RateLimiting</artifactId>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
@@ -56,9 +55,8 @@
             <scope>test</scope>
         </dependency>
         <dependency>
-            <groupId>org.mockito</groupId>
-            <artifactId>mockito-core</artifactId>
-            <scope>test</scope>
+            <groupId>com.github.vladimir-bukhtoyarov</groupId>
+            <artifactId>bucket4j-core</artifactId>
         </dependency>
     </dependencies>
 
