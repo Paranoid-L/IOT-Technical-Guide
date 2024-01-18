@@ -80,6 +80,7 @@
         <module>IOT-Guide-Firmware</module>
         <module>IOT-Guide-Actor</module>
         <module>IOT-Guide-RateLimiting</module>
+        <module>IOT-Guide-Bacnet</module>
     </modules>
 
     <url>https://iot.mushuwei.cn/</url>
@@ -94,7 +95,7 @@
         <lombok.version>1.18.4</lombok.version>
         <slf4j.version>1.7.7</slf4j.version>
         <logback.version>1.2.3</logback.version>
-        <junit.version>4.12</junit.version>
+        <junit.version>4.13.1</junit.version>
         <mockito.version>3.3.3</mockito.version>
         <gson.version>2.6.2</gson.version>
         <guava.version>30.1-jre</guava.version>
@@ -103,7 +104,7 @@
         <mysql.version>8.0.16</mysql.version>
         <jjwt.version>0.9.0</jjwt.version>
         <commons-lang3.version>3.4</commons-lang3.version>
-        <postgresql.version>42.2.5</postgresql.version>
+        <postgresql.version>42.2.25</postgresql.version>
         <h2database.version>1.4.197</h2database.version>
         <flink.version>1.9.0</flink.version>
         <paho.version>1.2.4</paho.version>
